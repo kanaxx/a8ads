@@ -116,6 +116,8 @@ echo '===============' . PHP_EOL;
 
 $csvFile = $domain .'_'. date('Ymd-His') . '.csv';
 
+file_put_contents($csvFile, "\xef\xbb\xbf");
+
 foreach($result as $n=>$data){
     $line = $data['mid'] .','. $data['url'] .','. $data['linktext'] .','. $data['a8'] .','. $data['type'] . PHP_EOL;
     file_put_contents($csvFile, $line, FILE_APPEND);
