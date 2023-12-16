@@ -1,4 +1,7 @@
 <?php 
+// author: kanaxx.
+// https://kanaxx.hatenablog.jp
+
 if( $argc != 2 ){
     echo '第一引数にブログのドメインを指定してください';
     exit;
