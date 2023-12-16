@@ -1,3 +1,6 @@
+// auhtor:kanaxx. 
+// https://kanaxx.hatenablog.jp/
+
 // https://pr-manage-pub.a8.net/media/index
 
 const apiInterval = 1; //秒
